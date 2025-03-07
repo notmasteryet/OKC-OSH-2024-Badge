@@ -2,11 +2,11 @@
 
 #include <stdint.h>
 
-bool getPhase();
-bool getPreamble();
+int getPhase();
+int getPreamble();
 
 void setupPhoto();
-bool receive();
+int receive();
 
 int receivedFrames();
 void getFrames(uint16_t *frames);

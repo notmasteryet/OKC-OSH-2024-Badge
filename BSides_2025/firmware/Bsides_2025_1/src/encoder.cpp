@@ -1,9 +1,9 @@
 #include "encoder.h"
 #include "WInterrupts.h"
 
-#define ROT_A PD0
-#define ROT_B PD2
-#define BUTTON PD3
+#define ROT_A PD2
+#define ROT_B PD3
+#define BUTTON PD4
 
 uint8_t getEncoderPos()
 {
